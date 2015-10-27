@@ -1,0 +1,15 @@
+﻿生成启动时间为 2015/10/27 23:10:49。
+     1>项目“E:\assembler\Proj1\Assembler Experiment 01\Assembler Experiment 01\Assembler Experiment 01.vcxproj”在节点 2 上(_MASM 个目标)。
+     1>_MASM:
+         Assembling test1.asm...
+         cmd.exe /C "C:\Users\Qiu Qidi\AppData\Local\Temp\tmp05534b1e9c9d494385ba69b41d14ff22.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\test1.obj" /Fl"Assembler Experiment 01.lst" /I "E:\assembler\irvine32" /W3 /errorReport:prompt  /Tatest1.asm
+     1>test1.asm(4): error A2008: syntax error : DSEG
+     1>test1.asm(19): error A2008: syntax error : in instruction
+     1>test1.asm(25): fatal error A1010: unmatched block nesting : DSEG
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\masm.targets(50,5): error MSB3721: 命令“ml.exe /c /nologo /Zi /Fo"Debug\test1.obj" /Fl"Assembler Experiment 01.lst" /I "E:\assembler\irvine32" /W3 /errorReport:prompt  /Tatest1.asm”已退出，返回代码为 1。
+     1>已完成生成项目“E:\assembler\Proj1\Assembler Experiment 01\Assembler Experiment 01\Assembler Experiment 01.vcxproj”(_MASM 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.39
